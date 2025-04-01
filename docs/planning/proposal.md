@@ -38,7 +38,7 @@ What hardware will you require? Provide a conceptual circuit diagram and/or bloc
 
 ## Software overview
 
-![Picture](Final-Flowchar.drawio.svg)
+![Picture](Final-Flowchart.drawio.svg)
 
 The MSP430FR2355 will act as a master for the MSP430FR2310 which will take in data from the motion detector and make a decision on whether to turn on the LEDs or not. There will also be an ISR for the buttons to check for presses in order to turn on, turn off, or change hue of the lights. 
 
